@@ -5,7 +5,7 @@ const DABC = require( './dabc' );
 const WooCommerceAPI = require( 'woocommerce-api' );
 const UntappdClient = require( 'node-untappd' );
 const querystring = require( 'querystring' );
-const PromisePool = require('promise-pool-executor');
+const PromisePool = require( 'promise-pool-executor' );
 const _ = require( 'lodash' );
 
 const WooCommerce = new WooCommerceAPI( {
@@ -44,7 +44,8 @@ const searchUntappd = ( beerName ) => new Promise( ( resolve, reject ) => {
         {
             q: beerName,
             sort: 'count',
-        } );
+        }
+    );
 } );
 
 const getUntappdBeer = ( untappdId ) => new Promise( ( resolve, reject ) => {
@@ -64,7 +65,8 @@ const getUntappdBeer = ( untappdId ) => new Promise( ( resolve, reject ) => {
         },
         {
             BID: untappdId,
-        } );
+        }
+    );
 } );
 
 const createProduct = ( product ) => new Promise( ( resolve, reject ) => {
@@ -313,21 +315,20 @@ DABC.getAllBeers( function( err, beers ) {
     pool.addEachTask( {
         data: beers,
         generator: ( beer ) => {
-            return getBeerBySKU( beer.cs_code )
-                .then( results => {
-                    if ( 0 === results.length ) {
-                        return addNewBeer( beer );
-                    } else {
-                        const untappdId = _.find( results[0].meta_data, { key: 'untappd_id' } );
+            return getBeerBySKU( beer.cs_code ).then( results => {
+                if ( 0 === results.length ) {
+                    return addNewBeer( beer );
+                } else {
+                    const untappdId = _.find( results[0].meta_data, { key: 'untappd_id' } );
 
-                        if ( untappdId && '' == results[0].short_description ) {
-                            return updateBeerFromUntappd( results[0] );
-                        }
-
-                        console.log( results[0].name + ' already exists.' );
-                        return results[0];
+                    if ( untappdId && '' == results[0].short_description ) {
+                        return updateBeerFromUntappd( results[0] );
                     }
-                } );
+
+                    console.log( results[0].name + ' already exists.' );
+                    return results[0];
+                }
+            } );
         }
     } ).promise().then( ( results ) => {
         console.log( results.length + ' beers processed.' );
