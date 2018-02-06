@@ -1,0 +1,15 @@
+{
+  "name": "utah-beer-finder-sync",
+  "version": "0.1.0",
+  "description": "Node.js application to sync Utah's DABC data with a WooCommerce store and Untappd ",
+  "main": "woocommerce.js",
+  "author": "Jeff Stieler <jeff.m.stieler@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^1.29.0",
+    "lodash": "^4.17.4",
+    "node-untappd": "^0.4.1",
+    "promise-pool-executor": "^1.1.0",
+    "woocommerce-api": "^1.4.2"
+  }
+}
