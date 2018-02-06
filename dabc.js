@@ -185,7 +185,7 @@ function getAllStores( callback ) {
 
 		} );
 
-		callback( null, stores );
+		callback( null, stores.filter( ( store ) => null !== store.storeNumber ) );
 
 	} );
 
