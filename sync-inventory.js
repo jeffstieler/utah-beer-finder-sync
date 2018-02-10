@@ -25,6 +25,8 @@ const WordPress = new WooCommerceAPI( {
     version: 'wp/v2',
 } );
 
+let storeMarkerIdMap = {};
+
 const getProducts = ( page = 1 ) => new Promise( ( resolve, reject ) => {
     WooCommerce.get(
         'products?' + querystring.stringify( { per_page: 100, page } ),
@@ -128,7 +130,7 @@ const updateBeerStores = ( beerID, storeNumbers ) => new Promise( ( resolve, rej
     );
 } );
 
-const processBeers = ( beers, storeMarkerIdMap ) => {
+const processBeers = ( beers ) => {
     // Create a pool with a concurrency limit
     const pool = new PromisePool.PromisePoolExecutor( {
         frequencyLimit: 10,
@@ -151,8 +153,8 @@ const processBeers = ( beers, storeMarkerIdMap ) => {
     } );
 };
 
-const processProductPage = ( page, storeMarkerIdMap ) => {
-    processBeers( page.products, storeMarkerIdMap ).then( () => {
+const processProductPage = ( page ) => {
+    processBeers( page.products ).then( () => {
         if ( page.next ) {
             page.next().then( processProductPage );
         }
@@ -160,8 +162,6 @@ const processProductPage = ( page, storeMarkerIdMap ) => {
 };
 
 getAllStoreMapMarkers().then( ( markers ) => {
-    const storeMarkerIdMap = {};
-
     markers.forEach( ( marker ) => {
         const storeNumber = Number.parseInt( marker.slug.split( '-' ).pop() );
 
@@ -170,5 +170,5 @@ getAllStoreMapMarkers().then( ( markers ) => {
         storeMarkerIdMap[ storeNumber ] = marker.id;
     } );
 
-    getProducts().then( ( page ) => processProductPage( page, storeMarkerIdMap ) );
+    getProducts().then( ( page ) => processProductPage( page ) );
 } );
