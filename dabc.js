@@ -1,4 +1,4 @@
-var	request = require('request'),
+var	request = require('requestretry'),
 	cheerio = require('cheerio'),
 	_ = require('underscore'),
 	async = require('async');
@@ -59,6 +59,14 @@ function parseBeerTable( html ) {
 
 }
 
+function requestWithRetry( url, callback ) {
+	request( {
+		url: url,
+		maxAttempts: 2,
+		retryDelay: 1000,
+	}, callback );
+}
+
 function getAllBeers( callback ) {
 
 	async.concat(
@@ -68,7 +76,7 @@ function getAllBeers( callback ) {
 		],
 		function( url, asyncCallback ) {
 
-			request( url, function( err, res, html ) {
+			requestWithRetry( url, function( err, res, html ) {
 
 				if ( err ) return asyncCallback( err );
 
@@ -86,7 +94,7 @@ function getAllBeers( callback ) {
 
 function getBeerInventory( csCode, callback ) {
 
-	request( URL_BASE + INVENTORY_URL, function( err, res, html ) {
+	requestWithRetry( URL_BASE + INVENTORY_URL, function( err, res, html ) {
 
 		if ( err ) {
 
@@ -161,7 +169,7 @@ function getBeerInventory( csCode, callback ) {
 
 function getAllStores( callback ) {
 
-	request( STORE_MAP_URL, function( err, res, mapJs ) {
+	requestWithRetry( STORE_MAP_URL, function( err, res, mapJs ) {
 
 		if ( err ) {
 
