@@ -134,7 +134,7 @@ const processBeers = ( beers ) => {
     // Create a pool with a concurrency limit
     const pool = new PromisePool.PromisePoolExecutor( {
         frequencyLimit: 10,
-        frequencyWindow: 3000,
+        frequencyWindow: 5000,
     } );
 
     return pool.addEachTask( {
