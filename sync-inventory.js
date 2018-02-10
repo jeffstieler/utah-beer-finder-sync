@@ -140,13 +140,15 @@ const processBeers = ( beers ) => {
     return pool.addEachTask( {
         data: beers,
         generator: ( beer ) => {
-            console.log( `Processing ${beer.name}` );
+            console.log( `Processing ${beer.name}.` );
             
             return getStoresBySKU( beer.sku )
-                .then( ( storeNumbers ) => (
-                    storeNumbers.map( ( number ) => storeMarkerIdMap[ number ] || false ).filter( Boolean )
-                 ) )
-                .then( ( storeMarkerIds ) => updateBeerStores( beer.id, storeMarkerIds ) );
+                .then( ( storeNumbers ) => {
+                    console.log( `${beer.name} available in stores:`, storeNumbers.join( ', ' ) );
+                    return storeNumbers.map( ( number ) => storeMarkerIdMap[ number ] || false ).filter( Boolean )
+                 } )
+                .then( ( storeMarkerIds ) => updateBeerStores( beer.id, storeMarkerIds ) )
+                .then( () => console.log( `${beer.name} stores updated.` ) );
         }
     } ).promise().then( ( results ) => {
         console.log( results.length + ' beers processed.' );
