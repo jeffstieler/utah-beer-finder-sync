@@ -95,6 +95,7 @@ const getAllProductsWithUntappdId = () => {
 
 const storeCheckinAsPost = ( checkin ) => new Promise( ( resolve, reject ) => {
     if ( ! productUntappdIdMap[ checkin.beer.bid ] ) {
+        console.log( `Skipping checkin ${checkin.checkin_id} - no matching product.` );
         return resolve();
     }
 
@@ -110,6 +111,8 @@ const storeCheckinAsPost = ( checkin ) => new Promise( ( resolve, reject ) => {
         parent: productUntappdIdMap[ checkin.beer.bid ].id,
         status: 'publish',
     };
+
+    console.log( `Storing checkin ${checkin.checkin_id} as post.` );
 
     WordPress.post(
         'checkins',
