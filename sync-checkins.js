@@ -54,7 +54,7 @@ const getProductsWithUntappdId = ( page = 1 ) => new Promise( ( resolve, reject 
         'products?' + querystring.stringify( {
             per_page: 100,
             page,
-            fields: [ 'id', 'title', 'meta.untappd_id' ],
+            fields: [ 'id', 'title', 'meta.untappd_id' ].join( ',' ),
         } ),
         ( err, res, body ) => {
             if ( err ) {
