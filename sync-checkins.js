@@ -153,22 +153,22 @@ const backfillCheckins = ( lat, lng, min_id ) => {
             if ( 0 === checkins.length ) {
                 return;
             }
-            const yearInSeconds = 60 * 60 * 24 * 365;
+            const twoYearsInSeconds = 60 * 60 * 24 * 365 * 2;
             const dateDiff = new Date() - Date.parse( checkins[0].created_at );
 
-            if ( min_id ) {
-                if ( 25 === checkins.length ) {
-                    return getCheckins( {
-                        lat,
-                        lng,
-                        min_id: checkins[0].checkin_id,
-                    } ).then( processCheckins );
-                }
-
+            if ( 25 > checkins.length ) {
                 return;
             }
+
+            if ( min_id ) {
+                return getCheckins( {
+                    lat,
+                    lng,
+                    min_id: checkins[0].checkin_id,
+                } ).then( processCheckins );
+            }
             
-            if ( dateDiff < yearInSeconds ) {
+            if ( dateDiff < twoYearsInSeconds ) {
                 return getCheckins( {
                     lat,
                     lng,
