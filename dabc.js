@@ -25,7 +25,7 @@ function parseBeerTable( html ) {
 	var inventory = [],
 		$ = cheerio.load( html );
 
-	$( '#ContentPlaceHolderBody_GridViewItem > tr' ).each( function( idx, row ) {
+	$( '#ContentPlaceHolderBody_GridViewItem tr' ).each( function( idx, row ) {
 
 		var $cols = $( row ).find( 'td' );
 
