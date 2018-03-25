@@ -29,7 +29,12 @@ let storeMarkerIdMap = {};
 
 const getProducts = ( page = 1 ) => new Promise( ( resolve, reject ) => {
     WooCommerce.get(
-        'products?' + querystring.stringify( { per_page: 100, page } ),
+        // TODO: only get beers not marked special order by DABC
+        'products?' + querystring.stringify( {
+            per_page: 100,
+            page,
+            fields: [ 'id', 'title', 'meta.untappd_id', 'stores' ].join( ',' ),
+        } ),
         ( err, res, body ) => {
             if ( err ) {
                 reject( err );
@@ -38,7 +43,7 @@ const getProducts = ( page = 1 ) => new Promise( ( resolve, reject ) => {
                     const json = JSON.parse( body );
                     const links = parseLinkHeader( _.get( res, 'headers.link', '' ) );
                     const response = {
-                        products: json,
+                        products: _.filter( json, 'stores.length' ),
                     };
 
                     if ( links.next ) {
@@ -133,7 +138,7 @@ const updateBeerStores = ( beerID, storeNumbers ) => new Promise( ( resolve, rej
 const processBeers = ( beers ) => {
     // Create a pool with a concurrency limit
     const pool = new PromisePool.PromisePoolExecutor( {
-        frequencyLimit: 10,
+        frequencyLimit: 15,
         frequencyWindow: 5000,
     } );
 
