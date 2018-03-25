@@ -68,14 +68,6 @@
         "venue_name": "The Tram Deck"
     },
     {
-        "venue_id": 995148,
-        "venue_name": "Oktoberfest"
-    },
-    {
-        "venue_id": 5300056,
-        "venue_name": "Oktoberfest 2016"
-    },
-    {
         "venue_id": 160685,
         "venue_name": "Snowbird Center Plaza"
     },
@@ -420,10 +412,6 @@
         "venue_name": "Canyons Resort"
     },
     {
-        "venue_id": 591280,
-        "venue_name": "Red Pine Condos"
-    },
-    {
         "venue_id": 543312,
         "venue_name": "LongHorn Steakhouse"
     },
@@ -442,10 +430,6 @@
     {
         "venue_id": 2231079,
         "venue_name": "Provisions"
-    },
-    {
-        "venue_id": 2541708,
-        "venue_name": "Wyndham Park City"
     },
     {
         "venue_id": 87166,
@@ -504,10 +488,6 @@
         "venue_name": "Bombay House"
     },
     {
-        "venue_id": 315780,
-        "venue_name": "Utah Olympic Park"
-    },
-    {
         "venue_id": 318551,
         "venue_name": "Spedelli's"
     },
@@ -548,10 +528,6 @@
         "venue_name": "Park City Mountain Resort"
     },
     {
-        "venue_id": 80222,
-        "venue_name": "Park City"
-    },
-    {
         "venue_id": 193499,
         "venue_name": "Pig Pen Saloon"
     },
@@ -584,10 +560,6 @@
         "venue_name": "Park City Peaks Hotel"
     },
     {
-        "venue_id": 339312,
-        "venue_name": "Shadow Ridge Resort"
-    },
-    {
         "venue_id": 260426,
         "venue_name": "Stella Grill"
     },
@@ -598,10 +570,6 @@
     {
         "venue_id": 1269087,
         "venue_name": "Feldman's Deli"
-    },
-    {
-        "venue_id": 838268,
-        "venue_name": "Bear Hollow Village Park City"
     },
     {
         "venue_id": 1568066,
@@ -712,10 +680,6 @@
         "venue_name": "The Cabin"
     },
     {
-        "venue_id": 392497,
-        "venue_name": "Park Silly Sunday Market"
-    },
-    {
         "venue_id": 6238723,
         "venue_name": "Garage Grill & RPM Brewery"
     },
@@ -818,10 +782,6 @@
     {
         "venue_id": 463334,
         "venue_name": "Blue Iguana"
-    },
-    {
-        "venue_id": 289674,
-        "venue_name": "Historic Park City Main Street"
     },
     {
         "venue_id": 2632039,
@@ -1022,10 +982,6 @@
     {
         "venue_id": 1340785,
         "venue_name": "Courtyard By Marriott"
-    },
-    {
-        "venue_id": 81114,
-        "venue_name": "Snow Park Outdoor Amphitheater"
     },
     {
         "venue_id": 193143,
@@ -1536,10 +1492,6 @@
         "venue_name": "Stoneground Kitchen"
     },
     {
-        "venue_id": 294996,
-        "venue_name": "Library Square"
-    },
-    {
         "venue_id": 1771183,
         "venue_name": "Even Stevens Sandwiches"
     },
@@ -1562,10 +1514,6 @@
     {
         "venue_id": 860876,
         "venue_name": "Gibson Lounge"
-    },
-    {
-        "venue_id": 1547547,
-        "venue_name": "Washington Square"
     },
     {
         "venue_id": 2682043,
@@ -1976,10 +1924,6 @@
         "venue_name": "Kiitos Brewing"
     },
     {
-        "venue_id": 780276,
-        "venue_name": "TRAX City Center"
-    },
-    {
         "venue_id": 166245,
         "venue_name": "Settebello Pizzeria"
     },
@@ -2226,10 +2170,6 @@
     {
         "venue_id": 1946793,
         "venue_name": "Courtyard Lehi at Thanksgiving Point"
-    },
-    {
-        "venue_id": 287593,
-        "venue_name": "Utah State Fair Park"
     },
     {
         "venue_id": 200717,
@@ -2596,10 +2536,6 @@
         "venue_name": "Hubbard Golf Course"
     },
     {
-        "venue_id": 2813248,
-        "venue_name": "Hill AFB Flight Line"
-    },
-    {
         "venue_id": 1251216,
         "venue_name": "Needles lodge"
     },
@@ -2806,9 +2742,5 @@
     {
         "venue_id": 1638025,
         "venue_name": "Weber county fairgrounds"
-    },
-    {
-        "venue_id": 176819,
-        "venue_name": "Moose Hollow Luxury Condominiums Eden (Utah)"
     }
 ]
