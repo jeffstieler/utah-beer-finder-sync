@@ -1,0 +1,2814 @@
+[
+    {
+        "venue_id": 99867,
+        "venue_name": "Red Rock Brewing Co. - Fashion Place"
+    },
+    {
+        "venue_id": 570326,
+        "venue_name": "Joe's Crab Shack - Salt Lake"
+    },
+    {
+        "venue_id": 6957031,
+        "venue_name": "Silver Mine Taproom"
+    },
+    {
+        "venue_id": 3240992,
+        "venue_name": "Twist Bar & Bistro"
+    },
+    {
+        "venue_id": 1469099,
+        "venue_name": "Beer Bar"
+    },
+    {
+        "venue_id": 11283,
+        "venue_name": "Uinta Brewhouse Pub"
+    },
+    {
+        "venue_id": 6331310,
+        "venue_name": "Warren's Craft Burger"
+    },
+    {
+        "venue_id": 196481,
+        "venue_name": "Wing Nutz"
+    },
+    {
+        "venue_id": 149838,
+        "venue_name": "Slackwater Pub & Pizzeria"
+    },
+    {
+        "venue_id": 804278,
+        "venue_name": "Snowbird Brewfest"
+    },
+    {
+        "venue_id": 173497,
+        "venue_name": "Creekside Café"
+    },
+    {
+        "venue_id": 526916,
+        "venue_name": "Iron Blosam Lodge"
+    },
+    {
+        "venue_id": 1263080,
+        "venue_name": "Wildflower Lounge"
+    },
+    {
+        "venue_id": 413173,
+        "venue_name": "The Lodge at Snowbird"
+    },
+    {
+        "venue_id": 165767,
+        "venue_name": "Lodge Bistro"
+    },
+    {
+        "venue_id": 22346,
+        "venue_name": "Snowbird Ski & Summer Resort"
+    },
+    {
+        "venue_id": 183554,
+        "venue_name": "The Tram Deck"
+    },
+    {
+        "venue_id": 995148,
+        "venue_name": "Oktoberfest"
+    },
+    {
+        "venue_id": 5300056,
+        "venue_name": "Oktoberfest 2016"
+    },
+    {
+        "venue_id": 160685,
+        "venue_name": "Snowbird Center Plaza"
+    },
+    {
+        "venue_id": 462478,
+        "venue_name": "Steak Pit"
+    },
+    {
+        "venue_id": 475324,
+        "venue_name": "Forklift Restaurant"
+    },
+    {
+        "venue_id": 182765,
+        "venue_name": "El Chanate"
+    },
+    {
+        "venue_id": 298424,
+        "venue_name": "The Aerie"
+    },
+    {
+        "venue_id": 22409,
+        "venue_name": "Tram Club"
+    },
+    {
+        "venue_id": 608962,
+        "venue_name": "Aerie"
+    },
+    {
+        "venue_id": 226668,
+        "venue_name": "The Cliff Lodge & Spa"
+    },
+    {
+        "venue_id": 475922,
+        "venue_name": "Peruvian Lodge"
+    },
+    {
+        "venue_id": 521653,
+        "venue_name": "Peruvian Bar"
+    },
+    {
+        "venue_id": 19164,
+        "venue_name": "Alta Ski Area"
+    },
+    {
+        "venue_id": 471807,
+        "venue_name": "Goldminer's Daughter Saloon"
+    },
+    {
+        "venue_id": 581417,
+        "venue_name": "Goldminer's Daughter Lodge"
+    },
+    {
+        "venue_id": 600430,
+        "venue_name": "Alta Lodge"
+    },
+    {
+        "venue_id": 194096,
+        "venue_name": "Mid Gad Lodge (Snowbird)"
+    },
+    {
+        "venue_id": 1314118,
+        "venue_name": "Watson Shelter, Alta Ski Area"
+    },
+    {
+        "venue_id": 590606,
+        "venue_name": "Albion Grill"
+    },
+    {
+        "venue_id": 2857973,
+        "venue_name": "Snowbird Summit"
+    },
+    {
+        "venue_id": 2721920,
+        "venue_name": "Hidden Peak, Snowbird"
+    },
+    {
+        "venue_id": 4173782,
+        "venue_name": "The Summit Lodge"
+    },
+    {
+        "venue_id": 583633,
+        "venue_name": "Alf's Restaurant, Alta Ski Area"
+    },
+    {
+        "venue_id": 301081,
+        "venue_name": "Silver Fork Lodge & Dining Room"
+    },
+    {
+        "venue_id": 581552,
+        "venue_name": "Sunshine Grill / Roundhouse"
+    },
+    {
+        "venue_id": 554030,
+        "venue_name": "Argenta Pub"
+    },
+    {
+        "venue_id": 164651,
+        "venue_name": "Moonbeam Lodge"
+    },
+    {
+        "venue_id": 177426,
+        "venue_name": "Canyon Inn"
+    },
+    {
+        "venue_id": 19106,
+        "venue_name": "Porcupine Pub & Grille"
+    },
+    {
+        "venue_id": 553965,
+        "venue_name": "Honeycomb Grill"
+    },
+    {
+        "venue_id": 178687,
+        "venue_name": "Thirsty Squirrel"
+    },
+    {
+        "venue_id": 190795,
+        "venue_name": "Stone Haus Pizzeria & Creamery"
+    },
+    {
+        "venue_id": 32051,
+        "venue_name": "Solitude Mountain Resort"
+    },
+    {
+        "venue_id": 1380184,
+        "venue_name": "Milly Chalet"
+    },
+    {
+        "venue_id": 35790,
+        "venue_name": "Hog Wallow"
+    },
+    {
+        "venue_id": 8160,
+        "venue_name": "Brighton Ski Resort"
+    },
+    {
+        "venue_id": 28801,
+        "venue_name": "Molly Green's"
+    },
+    {
+        "venue_id": 631209,
+        "venue_name": "Brighton Lodge"
+    },
+    {
+        "venue_id": 2363697,
+        "venue_name": "Bandits' American Grill"
+    },
+    {
+        "venue_id": 5655159,
+        "venue_name": "Spitz"
+    },
+    {
+        "venue_id": 108395,
+        "venue_name": "Residence Inn Salt Lake City Cottonwood"
+    },
+    {
+        "venue_id": 458844,
+        "venue_name": "Café Trio"
+    },
+    {
+        "venue_id": 1118959,
+        "venue_name": "Elixir Lounge"
+    },
+    {
+        "venue_id": 164978,
+        "venue_name": "Bout Time Pub & Grub"
+    },
+    {
+        "venue_id": 1030119,
+        "venue_name": "Hyatt Place Salt Lake City/Cottonwood"
+    },
+    {
+        "venue_id": 33500,
+        "venue_name": "Market Street Grill"
+    },
+    {
+        "venue_id": 314223,
+        "venue_name": "Willow Creek Country Club"
+    },
+    {
+        "venue_id": 148142,
+        "venue_name": "Cotton Bottom"
+    },
+    {
+        "venue_id": 68259,
+        "venue_name": "Huddle Sports Bar & Grill"
+    },
+    {
+        "venue_id": 67740,
+        "venue_name": "Lone Star Taqueria"
+    },
+    {
+        "venue_id": 200822,
+        "venue_name": "Cloud Dine"
+    },
+    {
+        "venue_id": 679710,
+        "venue_name": "Olympus Hills Lanes"
+    },
+    {
+        "venue_id": 2813526,
+        "venue_name": "The Citrus Grill"
+    },
+    {
+        "venue_id": 370249,
+        "venue_name": "Citris Grill"
+    },
+    {
+        "venue_id": 719806,
+        "venue_name": "Wing Coop"
+    },
+    {
+        "venue_id": 304476,
+        "venue_name": "Kobe Sushi"
+    },
+    {
+        "venue_id": 86951,
+        "venue_name": "Red Pine Lodge"
+    },
+    {
+        "venue_id": 166962,
+        "venue_name": "Highlander Club"
+    },
+    {
+        "venue_id": 572586,
+        "venue_name": "Layla Mediterranean Grill & Mezze"
+    },
+    {
+        "venue_id": 586578,
+        "venue_name": "Lookout Cabin"
+    },
+    {
+        "venue_id": 555016,
+        "venue_name": "Sun Lodge"
+    },
+    {
+        "venue_id": 1621338,
+        "venue_name": "Taqueria 27"
+    },
+    {
+        "venue_id": 2293102,
+        "venue_name": "Copper Kitchen"
+    },
+    {
+        "venue_id": 651724,
+        "venue_name": "Tombestone Express Chairlift"
+    },
+    {
+        "venue_id": 558881,
+        "venue_name": "Tombstone Barbeque"
+    },
+    {
+        "venue_id": 205379,
+        "venue_name": "Wing Nutz"
+    },
+    {
+        "venue_id": 190421,
+        "venue_name": "Summit House, Park City Mountain Resort"
+    },
+    {
+        "venue_id": 246466,
+        "venue_name": "Wasatch Broiler & Grill"
+    },
+    {
+        "venue_id": 237782,
+        "venue_name": "Tsunami"
+    },
+    {
+        "venue_id": 471941,
+        "venue_name": "Iggy's Sports Grill"
+    },
+    {
+        "venue_id": 3422313,
+        "venue_name": "Spedelli's"
+    },
+    {
+        "venue_id": 562181,
+        "venue_name": "Hyatt Centric Park City"
+    },
+    {
+        "venue_id": 251549,
+        "venue_name": "The Pie Pizzeria"
+    },
+    {
+        "venue_id": 624174,
+        "venue_name": "Sundial Lodge"
+    },
+    {
+        "venue_id": 952185,
+        "venue_name": "Sunrise Lodge by Hilton Grand Vacations"
+    },
+    {
+        "venue_id": 553861,
+        "venue_name": "Drafts Sports Bar and Grill"
+    },
+    {
+        "venue_id": 561566,
+        "venue_name": "Murdock's"
+    },
+    {
+        "venue_id": 331321,
+        "venue_name": "The Farm at Canyons"
+    },
+    {
+        "venue_id": 496874,
+        "venue_name": "Drafts Sports Bar & Geill"
+    },
+    {
+        "venue_id": 170476,
+        "venue_name": "Umbrella Bar"
+    },
+    {
+        "venue_id": 330615,
+        "venue_name": "Red Tail Grill"
+    },
+    {
+        "venue_id": 170379,
+        "venue_name": "Westgate Park City Resort & Spa"
+    },
+    {
+        "venue_id": 22095,
+        "venue_name": "Grand Summit Hotel"
+    },
+    {
+        "venue_id": 143403,
+        "venue_name": "Silverado Lodge"
+    },
+    {
+        "venue_id": 545262,
+        "venue_name": "Miners Camp Restaurant"
+    },
+    {
+        "venue_id": 4000038,
+        "venue_name": "Miner's Camp"
+    },
+    {
+        "venue_id": 528137,
+        "venue_name": "Mid-Mountain Lodge"
+    },
+    {
+        "venue_id": 143681,
+        "venue_name": "Canyons Resort"
+    },
+    {
+        "venue_id": 591280,
+        "venue_name": "Red Pine Condos"
+    },
+    {
+        "venue_id": 543312,
+        "venue_name": "LongHorn Steakhouse"
+    },
+    {
+        "venue_id": 570470,
+        "venue_name": "Buffalo Wild Wings"
+    },
+    {
+        "venue_id": 1396147,
+        "venue_name": "Viking Yurt"
+    },
+    {
+        "venue_id": 239887,
+        "venue_name": "Wing Nutz"
+    },
+    {
+        "venue_id": 2231079,
+        "venue_name": "Provisions"
+    },
+    {
+        "venue_id": 2541708,
+        "venue_name": "Wyndham Park City"
+    },
+    {
+        "venue_id": 87166,
+        "venue_name": "Hoppers Grill & Brewing Co."
+    },
+    {
+        "venue_id": 478553,
+        "venue_name": "Homewood Suites by Hilton Salt Lake City-Midvale/Sandy"
+    },
+    {
+        "venue_id": 86471,
+        "venue_name": "Waldorf Astoria Park City"
+    },
+    {
+        "venue_id": 185173,
+        "venue_name": "Epic Casual Dining"
+    },
+    {
+        "venue_id": 274512,
+        "venue_name": "The Point After"
+    },
+    {
+        "venue_id": 258616,
+        "venue_name": "A Bar Named Sue"
+    },
+    {
+        "venue_id": 588008,
+        "venue_name": "El Chihuahua"
+    },
+    {
+        "venue_id": 1679355,
+        "venue_name": "Burgers & Bourbon"
+    },
+    {
+        "venue_id": 160740,
+        "venue_name": "Daly's Grill & Pub"
+    },
+    {
+        "venue_id": 205281,
+        "venue_name": "Montage Deer Valley"
+    },
+    {
+        "venue_id": 296547,
+        "venue_name": "Mountain Dell Golf Course"
+    },
+    {
+        "venue_id": 441391,
+        "venue_name": "Empire Canyon Lodge"
+    },
+    {
+        "venue_id": 121151,
+        "venue_name": "Tin Roof Grill"
+    },
+    {
+        "venue_id": 340197,
+        "venue_name": "Bombay House"
+    },
+    {
+        "venue_id": 315780,
+        "venue_name": "Utah Olympic Park"
+    },
+    {
+        "venue_id": 318551,
+        "venue_name": "Spedelli's"
+    },
+    {
+        "venue_id": 407095,
+        "venue_name": "Silver Star Café"
+    },
+    {
+        "venue_id": 880858,
+        "venue_name": "The Royal"
+    },
+    {
+        "venue_id": 479081,
+        "venue_name": "Leprechaun Inn"
+    },
+    {
+        "venue_id": 239695,
+        "venue_name": "Red Robin Gourmet Burgers"
+    },
+    {
+        "venue_id": 202519,
+        "venue_name": "Hotel Park City"
+    },
+    {
+        "venue_id": 200385,
+        "venue_name": "Ruth's Chris Steak House - Park City"
+    },
+    {
+        "venue_id": 553458,
+        "venue_name": "Legacy Lodge"
+    },
+    {
+        "venue_id": 613331,
+        "venue_name": "Mojo's Apres Ski"
+    },
+    {
+        "venue_id": 1401211,
+        "venue_name": "Park City Mountain Resort"
+    },
+    {
+        "venue_id": 80222,
+        "venue_name": "Park City"
+    },
+    {
+        "venue_id": 193499,
+        "venue_name": "Pig Pen Saloon"
+    },
+    {
+        "venue_id": 624816,
+        "venue_name": "Lodge at the Mountain Village"
+    },
+    {
+        "venue_id": 13834,
+        "venue_name": "Marriott's MountainSide"
+    },
+    {
+        "venue_id": 86632,
+        "venue_name": "Corner Store Pub & Grill"
+    },
+    {
+        "venue_id": 827412,
+        "venue_name": "Legends Bar & Grill"
+    },
+    {
+        "venue_id": 56098,
+        "venue_name": "Squatters Roadhouse Grill and Pub"
+    },
+    {
+        "venue_id": 189946,
+        "venue_name": "Baja Cantina"
+    },
+    {
+        "venue_id": 463561,
+        "venue_name": "Park City Peaks Hotel"
+    },
+    {
+        "venue_id": 339312,
+        "venue_name": "Shadow Ridge Resort"
+    },
+    {
+        "venue_id": 260426,
+        "venue_name": "Stella Grill"
+    },
+    {
+        "venue_id": 6078975,
+        "venue_name": "Cliff Dining Pub"
+    },
+    {
+        "venue_id": 1269087,
+        "venue_name": "Feldman's Deli"
+    },
+    {
+        "venue_id": 838268,
+        "venue_name": "Bear Hollow Village Park City"
+    },
+    {
+        "venue_id": 1568066,
+        "venue_name": "The Cliff Dining Pub"
+    },
+    {
+        "venue_id": 3447935,
+        "venue_name": "DoubleTree by Hilton Hotel Park City - The Yarrow"
+    },
+    {
+        "venue_id": 377020,
+        "venue_name": "Yarrow Resort Hotel & Conference Center"
+    },
+    {
+        "venue_id": 58524,
+        "venue_name": "Bohemian Brewery"
+    },
+    {
+        "venue_id": 518079,
+        "venue_name": "Redrock"
+    },
+    {
+        "venue_id": 376075,
+        "venue_name": "Red Rock Place"
+    },
+    {
+        "venue_id": 5944003,
+        "venue_name": "Prohibition"
+    },
+    {
+        "venue_id": 249730,
+        "venue_name": "The Cheesecake Factory"
+    },
+    {
+        "venue_id": 387362,
+        "venue_name": "Hooters"
+    },
+    {
+        "venue_id": 832797,
+        "venue_name": "A Bar Named Sue"
+    },
+    {
+        "venue_id": 581875,
+        "venue_name": "The Bridge Cafe And Grill"
+    },
+    {
+        "venue_id": 1284708,
+        "venue_name": "Flying Sumo Sushi"
+    },
+    {
+        "venue_id": 1227129,
+        "venue_name": "Boneyard Saloon & Wine Dive"
+    },
+    {
+        "venue_id": 5185477,
+        "venue_name": "Garage Grill"
+    },
+    {
+        "venue_id": 164209,
+        "venue_name": "Blind Dog Grill"
+    },
+    {
+        "venue_id": 242978,
+        "venue_name": "Fat Cats Salt Lake City"
+    },
+    {
+        "venue_id": 5780106,
+        "venue_name": "Church Public House"
+    },
+    {
+        "venue_id": 159088,
+        "venue_name": "High West Distillery & Saloon"
+    },
+    {
+        "venue_id": 544562,
+        "venue_name": "Davanza's"
+    },
+    {
+        "venue_id": 26409,
+        "venue_name": "Butcher's Chop House & Bar"
+    },
+    {
+        "venue_id": 260790,
+        "venue_name": "Liquid Joe's"
+    },
+    {
+        "venue_id": 206622,
+        "venue_name": "Oishi Sushi Bar & Grill"
+    },
+    {
+        "venue_id": 127493,
+        "venue_name": "Doolan's Sports Bar & Grill"
+    },
+    {
+        "venue_id": 1071281,
+        "venue_name": "Collie's Sports Bar & Grill"
+    },
+    {
+        "venue_id": 555568,
+        "venue_name": "Marriott's Summit Watch"
+    },
+    {
+        "venue_id": 80943,
+        "venue_name": "Lindzee O' Michaels"
+    },
+    {
+        "venue_id": 2405063,
+        "venue_name": "The Cabin"
+    },
+    {
+        "venue_id": 392497,
+        "venue_name": "Park Silly Sunday Market"
+    },
+    {
+        "venue_id": 6238723,
+        "venue_name": "Garage Grill & RPM Brewery"
+    },
+    {
+        "venue_id": 544859,
+        "venue_name": "Cantina Southwestern Grill"
+    },
+    {
+        "venue_id": 328395,
+        "venue_name": "Vinto"
+    },
+    {
+        "venue_id": 2610684,
+        "venue_name": "Windy Ridge Cafe"
+    },
+    {
+        "venue_id": 1316721,
+        "venue_name": "Yuki Yama Sushi"
+    },
+    {
+        "venue_id": 198716,
+        "venue_name": "Bangkok Thai"
+    },
+    {
+        "venue_id": 614847,
+        "venue_name": "Tavern"
+    },
+    {
+        "venue_id": 83402,
+        "venue_name": "Zoom Park City"
+    },
+    {
+        "venue_id": 193324,
+        "venue_name": "Bistro 412"
+    },
+    {
+        "venue_id": 1292519,
+        "venue_name": "Rock & Reilly's Irish Rock Pub"
+    },
+    {
+        "venue_id": 422012,
+        "venue_name": "Cafe Terigo"
+    },
+    {
+        "venue_id": 154546,
+        "venue_name": "Purple Sage"
+    },
+    {
+        "venue_id": 496165,
+        "venue_name": "Park City Live"
+    },
+    {
+        "venue_id": 2528,
+        "venue_name": "No Name Saloon"
+    },
+    {
+        "venue_id": 142420,
+        "venue_name": "O'Shucks Bar & Grill"
+    },
+    {
+        "venue_id": 155967,
+        "venue_name": "Flanagan's Irish Pub & Restaurant"
+    },
+    {
+        "venue_id": 207446,
+        "venue_name": "Shabu"
+    },
+    {
+        "venue_id": 164224,
+        "venue_name": "Bandits Bar & Grill"
+    },
+    {
+        "venue_id": 142311,
+        "venue_name": "501 on Main Restaurant & Pub"
+    },
+    {
+        "venue_id": 356592,
+        "venue_name": "Grappa Italian Restaurant"
+    },
+    {
+        "venue_id": 280536,
+        "venue_name": "Main Street Pizza & Noodle"
+    },
+    {
+        "venue_id": 565415,
+        "venue_name": "Riverhorse"
+    },
+    {
+        "venue_id": 2499459,
+        "venue_name": "Residence Inn Salt Lake City Murray"
+    },
+    {
+        "venue_id": 10755,
+        "venue_name": "Wasatch Brew Pub"
+    },
+    {
+        "venue_id": 2475328,
+        "venue_name": "Fletcher's"
+    },
+    {
+        "venue_id": 463334,
+        "venue_name": "Blue Iguana"
+    },
+    {
+        "venue_id": 289674,
+        "venue_name": "Historic Park City Main Street"
+    },
+    {
+        "venue_id": 2632039,
+        "venue_name": "O.P. Rockwell"
+    },
+    {
+        "venue_id": 180524,
+        "venue_name": "The Eating Establishment"
+    },
+    {
+        "venue_id": 201148,
+        "venue_name": "Cisero's"
+    },
+    {
+        "venue_id": 511658,
+        "venue_name": "Red Banjo Pizza Parlour"
+    },
+    {
+        "venue_id": 1973091,
+        "venue_name": "Handle"
+    },
+    {
+        "venue_id": 156967,
+        "venue_name": "The Spur Bar & Grill"
+    },
+    {
+        "venue_id": 201648,
+        "venue_name": "Chimayo"
+    },
+    {
+        "venue_id": 66765,
+        "venue_name": "Sammy's Bistro"
+    },
+    {
+        "venue_id": 192165,
+        "venue_name": "Stein Eriksen Lodge Deer Valley"
+    },
+    {
+        "venue_id": 128842,
+        "venue_name": "Lumpy's Sports Bar"
+    },
+    {
+        "venue_id": 260758,
+        "venue_name": "Bongo Lounge"
+    },
+    {
+        "venue_id": 177574,
+        "venue_name": "El Chubasco"
+    },
+    {
+        "venue_id": 4391454,
+        "venue_name": "burgers & barley"
+    },
+    {
+        "venue_id": 2479711,
+        "venue_name": "Deer Valley Ski Resort"
+    },
+    {
+        "venue_id": 355840,
+        "venue_name": "The Chateaux"
+    },
+    {
+        "venue_id": 223173,
+        "venue_name": "Rio Tinto Stadium"
+    },
+    {
+        "venue_id": 211188,
+        "venue_name": "Royal Street Cafe"
+    },
+    {
+        "venue_id": 207606,
+        "venue_name": "Silver Lake Lodge"
+    },
+    {
+        "venue_id": 548122,
+        "venue_name": "Sushi Groove"
+    },
+    {
+        "venue_id": 2555395,
+        "venue_name": "Este Pizza Park City"
+    },
+    {
+        "venue_id": 565529,
+        "venue_name": "Taqueria 27"
+    },
+    {
+        "venue_id": 550473,
+        "venue_name": "Club 90"
+    },
+    {
+        "venue_id": 26805,
+        "venue_name": "Park City Marriott"
+    },
+    {
+        "venue_id": 560282,
+        "venue_name": "Sushi Blue"
+    },
+    {
+        "venue_id": 454347,
+        "venue_name": "Ghidotti's"
+    },
+    {
+        "venue_id": 10771,
+        "venue_name": "Red Rock Restaurant & Brewing Co."
+    },
+    {
+        "venue_id": 144327,
+        "venue_name": "Fuego Bistro & Pizzeria"
+    },
+    {
+        "venue_id": 206775,
+        "venue_name": "All Star Lanes"
+    },
+    {
+        "venue_id": 2350684,
+        "venue_name": "The Junction"
+    },
+    {
+        "venue_id": 2441684,
+        "venue_name": "2 Row Brewing"
+    },
+    {
+        "venue_id": 388836,
+        "venue_name": "Sandy Station"
+    },
+    {
+        "venue_id": 547568,
+        "venue_name": "Grub Steak Restaurant"
+    },
+    {
+        "venue_id": 12141,
+        "venue_name": "Jupiter Bowl"
+    },
+    {
+        "venue_id": 648467,
+        "venue_name": "Chili's Grill & Bar"
+    },
+    {
+        "venue_id": 255711,
+        "venue_name": "Los Cucos Mexican Cafe"
+    },
+    {
+        "venue_id": 1173519,
+        "venue_name": "Winger's Roadhouse Grill"
+    },
+    {
+        "venue_id": 903656,
+        "venue_name": "Bout Time Pub & Grub"
+    },
+    {
+        "venue_id": 1763037,
+        "venue_name": "Oak Wood Fire Kitchen"
+    },
+    {
+        "venue_id": 1261110,
+        "venue_name": "Deer Valley Snow Park Village"
+    },
+    {
+        "venue_id": 110247,
+        "venue_name": "Maxwells"
+    },
+    {
+        "venue_id": 3361002,
+        "venue_name": "Ice Haüs"
+    },
+    {
+        "venue_id": 555115,
+        "venue_name": "Loco Lizard Cantina"
+    },
+    {
+        "venue_id": 322913,
+        "venue_name": "Molly Blooms"
+    },
+    {
+        "venue_id": 642485,
+        "venue_name": "Hyatt House Salt Lake City/Sandy"
+    },
+    {
+        "venue_id": 45226,
+        "venue_name": "Hilton Garden Inn"
+    },
+    {
+        "venue_id": 314598,
+        "venue_name": "Mac Cool's Public House"
+    },
+    {
+        "venue_id": 227175,
+        "venue_name": "Red Butte Cafe"
+    },
+    {
+        "venue_id": 24985,
+        "venue_name": "Iggy's Sports Grill"
+    },
+    {
+        "venue_id": 12655,
+        "venue_name": "Texas Roadhouse"
+    },
+    {
+        "venue_id": 1340785,
+        "venue_name": "Courtyard By Marriott"
+    },
+    {
+        "venue_id": 81114,
+        "venue_name": "Snow Park Outdoor Amphitheater"
+    },
+    {
+        "venue_id": 193143,
+        "venue_name": "Carver's Steaks & Chops"
+    },
+    {
+        "venue_id": 222960,
+        "venue_name": "Red Robin Gourmet Burgers"
+    },
+    {
+        "venue_id": 753575,
+        "venue_name": "Ruth's Diner"
+    },
+    {
+        "venue_id": 156192,
+        "venue_name": "Deer Valley Resort"
+    },
+    {
+        "venue_id": 203831,
+        "venue_name": "Snow Park Lodge"
+    },
+    {
+        "venue_id": 671253,
+        "venue_name": "Buffalo Wild Wings"
+    },
+    {
+        "venue_id": 359756,
+        "venue_name": "Toscano Italian Bistro"
+    },
+    {
+        "venue_id": 497772,
+        "venue_name": "O'Shucks Bar & Grill"
+    },
+    {
+        "venue_id": 511154,
+        "venue_name": "The St. Regis Deer Valley"
+    },
+    {
+        "venue_id": 1049074,
+        "venue_name": "Billy Blanco's"
+    },
+    {
+        "venue_id": 4383024,
+        "venue_name": "R&R BBQ"
+    },
+    {
+        "venue_id": 98355,
+        "venue_name": "The Dodo Restaurant"
+    },
+    {
+        "venue_id": 2847543,
+        "venue_name": "Park City Brewery"
+    },
+    {
+        "venue_id": 4156493,
+        "venue_name": "The Ruin"
+    },
+    {
+        "venue_id": 924407,
+        "venue_name": "Hogle Zoo"
+    },
+    {
+        "venue_id": 1065752,
+        "venue_name": "St Regis Bar"
+    },
+    {
+        "venue_id": 511262,
+        "venue_name": "Tsunami Restaurant & Sushi Bar"
+    },
+    {
+        "venue_id": 709768,
+        "venue_name": "Lodges at Deer Valley"
+    },
+    {
+        "venue_id": 3270718,
+        "venue_name": "Spitz"
+    },
+    {
+        "venue_id": 5480746,
+        "venue_name": "Mid City Pub & Grill"
+    },
+    {
+        "venue_id": 246954,
+        "venue_name": "Nibley Park Golf Course"
+    },
+    {
+        "venue_id": 166163,
+        "venue_name": "yellowfinn"
+    },
+    {
+        "venue_id": 1724596,
+        "venue_name": "All Star Lanes"
+    },
+    {
+        "venue_id": 190064,
+        "venue_name": "The Bar in Sugarhouse"
+    },
+    {
+        "venue_id": 418481,
+        "venue_name": "Leatherheads Sports Bar & Grill"
+    },
+    {
+        "venue_id": 333106,
+        "venue_name": "Leatherhead's"
+    },
+    {
+        "venue_id": 151115,
+        "venue_name": "Fats Grill & Pool"
+    },
+    {
+        "venue_id": 4783851,
+        "venue_name": "Topgolf"
+    },
+    {
+        "venue_id": 23569,
+        "venue_name": "Wing Nutz"
+    },
+    {
+        "venue_id": 3905025,
+        "venue_name": "Buffalo Wild Wings"
+    },
+    {
+        "venue_id": 2177552,
+        "venue_name": "Mellow Mushroom"
+    },
+    {
+        "venue_id": 13082,
+        "venue_name": "Goodwood Barbecue Company"
+    },
+    {
+        "venue_id": 2122424,
+        "venue_name": "Wasatch Brew Pub"
+    },
+    {
+        "venue_id": 165912,
+        "venue_name": "Salt Lake Pizza & Pasta"
+    },
+    {
+        "venue_id": 503524,
+        "venue_name": "Donkey Tails"
+    },
+    {
+        "venue_id": 682510,
+        "venue_name": "Guadalahonky's"
+    },
+    {
+        "venue_id": 5613950,
+        "venue_name": "Black Sheep at Epic Brewing Sugarhouse"
+    },
+    {
+        "venue_id": 5580012,
+        "venue_name": "Epic Brewing Sugarhouse"
+    },
+    {
+        "venue_id": 575392,
+        "venue_name": "Flatbread"
+    },
+    {
+        "venue_id": 1037304,
+        "venue_name": "The Annex by Epic Brewing"
+    },
+    {
+        "venue_id": 7758,
+        "venue_name": "Fiddler's Elbow"
+    },
+    {
+        "venue_id": 23741,
+        "venue_name": "Sugar House Pub"
+    },
+    {
+        "venue_id": 170976,
+        "venue_name": "Mazza Middle Eastern Cuisine"
+    },
+    {
+        "venue_id": 93061,
+        "venue_name": "Tony Caputo's Market & Deli"
+    },
+    {
+        "venue_id": 5170265,
+        "venue_name": "Trestle Tavern"
+    },
+    {
+        "venue_id": 1299179,
+        "venue_name": "Trolley Wing Company"
+    },
+    {
+        "venue_id": 409402,
+        "venue_name": "Este Pizzeria"
+    },
+    {
+        "venue_id": 71869,
+        "venue_name": "The Sugarhouse Barbeque Company"
+    },
+    {
+        "venue_id": 177910,
+        "venue_name": "Tap Room"
+    },
+    {
+        "venue_id": 2536717,
+        "venue_name": "Even Stevens Sandwiches"
+    },
+    {
+        "venue_id": 608378,
+        "venue_name": "Campfire Lounge"
+    },
+    {
+        "venue_id": 731023,
+        "venue_name": "Tsunami Restaurant & Sushi Bar"
+    },
+    {
+        "venue_id": 45398,
+        "venue_name": "Market Street Grill"
+    },
+    {
+        "venue_id": 162001,
+        "venue_name": "Zermatt Resort & Spa"
+    },
+    {
+        "venue_id": 244466,
+        "venue_name": "Salt Lake City Marriott University Park"
+    },
+    {
+        "venue_id": 419860,
+        "venue_name": "Pitcher's Lounge"
+    },
+    {
+        "venue_id": 292945,
+        "venue_name": "Homestead Resort"
+    },
+    {
+        "venue_id": 353767,
+        "venue_name": "Kyoto"
+    },
+    {
+        "venue_id": 274419,
+        "venue_name": "Natural History Museum of Utah"
+    },
+    {
+        "venue_id": 2727340,
+        "venue_name": "Hub & Spoke Diner"
+    },
+    {
+        "venue_id": 790706,
+        "venue_name": "Finca"
+    },
+    {
+        "venue_id": 430992,
+        "venue_name": "Bonwood Bowl"
+    },
+    {
+        "venue_id": 3381399,
+        "venue_name": "The Black Sheep Bar & Grill"
+    },
+    {
+        "venue_id": 277288,
+        "venue_name": "Red Butte Garden's Amphitheatre"
+    },
+    {
+        "venue_id": 501467,
+        "venue_name": "Busy Bee Bar & Grill"
+    },
+    {
+        "venue_id": 165892,
+        "venue_name": "Rusted Sun Pizzeria"
+    },
+    {
+        "venue_id": 210647,
+        "venue_name": "Vertical Diner"
+    },
+    {
+        "venue_id": 326859,
+        "venue_name": "All Star Lanes"
+    },
+    {
+        "venue_id": 3879377,
+        "venue_name": "Shades Of Pale"
+    },
+    {
+        "venue_id": 411389,
+        "venue_name": "Mazza"
+    },
+    {
+        "venue_id": 194461,
+        "venue_name": "Pat's Barbecue"
+    },
+    {
+        "venue_id": 2374480,
+        "venue_name": "East Liberty Tap House"
+    },
+    {
+        "venue_id": 428778,
+        "venue_name": "Pago"
+    },
+    {
+        "venue_id": 336670,
+        "venue_name": "Tracy Aviary"
+    },
+    {
+        "venue_id": 151094,
+        "venue_name": "Bout Time Pub & Grub"
+    },
+    {
+        "venue_id": 584627,
+        "venue_name": "The Pie Pizzeria"
+    },
+    {
+        "venue_id": 733990,
+        "venue_name": "Willie's Lounge"
+    },
+    {
+        "venue_id": 529303,
+        "venue_name": "Big Willies"
+    },
+    {
+        "venue_id": 200727,
+        "venue_name": "Cafe Trio"
+    },
+    {
+        "venue_id": 917549,
+        "venue_name": "Wing Nutz"
+    },
+    {
+        "venue_id": 4358,
+        "venue_name": "Piper Down"
+    },
+    {
+        "venue_id": 3899934,
+        "venue_name": "Porcupine Pub & Grille"
+    },
+    {
+        "venue_id": 6143234,
+        "venue_name": "RoHa"
+    },
+    {
+        "venue_id": 6130382,
+        "venue_name": "Roha Brewing Project"
+    },
+    {
+        "venue_id": 309422,
+        "venue_name": "Thai Siam"
+    },
+    {
+        "venue_id": 413189,
+        "venue_name": "Big Ed's"
+    },
+    {
+        "venue_id": 162827,
+        "venue_name": "The Pie Pizzeria"
+    },
+    {
+        "venue_id": 836567,
+        "venue_name": "Aristo's Greek Restaurant"
+    },
+    {
+        "venue_id": 97658,
+        "venue_name": "Utah Brewers Cooperative"
+    },
+    {
+        "venue_id": 538743,
+        "venue_name": "The Beer Store"
+    },
+    {
+        "venue_id": 648528,
+        "venue_name": "Pig & A Jelly Jar Salt Lake City"
+    },
+    {
+        "venue_id": 724492,
+        "venue_name": "Meditrina"
+    },
+    {
+        "venue_id": 45442,
+        "venue_name": "Smith's Ballpark"
+    },
+    {
+        "venue_id": 1214236,
+        "venue_name": "The Old Spaghetti Factory"
+    },
+    {
+        "venue_id": 441905,
+        "venue_name": "X Wife's Place"
+    },
+    {
+        "venue_id": 26575,
+        "venue_name": "Desert Edge Brewery at The Pub"
+    },
+    {
+        "venue_id": 158789,
+        "venue_name": "Rodizio Grill"
+    },
+    {
+        "venue_id": 686119,
+        "venue_name": "Ruby River Steakhouse"
+    },
+    {
+        "venue_id": 39194,
+        "venue_name": "Lucky 13"
+    },
+    {
+        "venue_id": 489993,
+        "venue_name": "Chili's Grill & Bar"
+    },
+    {
+        "venue_id": 596257,
+        "venue_name": "La-Cai Noodle House"
+    },
+    {
+        "venue_id": 394290,
+        "venue_name": "Caffe Niche"
+    },
+    {
+        "venue_id": 31784,
+        "venue_name": "The Republican"
+    },
+    {
+        "venue_id": 63593,
+        "venue_name": "Epic Brewing Company"
+    },
+    {
+        "venue_id": 177321,
+        "venue_name": "Duffy's Tavern"
+    },
+    {
+        "venue_id": 320347,
+        "venue_name": "The Woodshed"
+    },
+    {
+        "venue_id": 538806,
+        "venue_name": "The Kathmandu Grill"
+    },
+    {
+        "venue_id": 169831,
+        "venue_name": "The Spot"
+    },
+    {
+        "venue_id": 4452599,
+        "venue_name": "Proper Burger"
+    },
+    {
+        "venue_id": 4455743,
+        "venue_name": "Proper Brewing Company"
+    },
+    {
+        "venue_id": 5186888,
+        "venue_name": "Tinwell"
+    },
+    {
+        "venue_id": 338278,
+        "venue_name": "Sapa"
+    },
+    {
+        "venue_id": 5910213,
+        "venue_name": "Purgatory Bar"
+    },
+    {
+        "venue_id": 5865812,
+        "venue_name": "Purgatory"
+    },
+    {
+        "venue_id": 57659,
+        "venue_name": "Bar Deluxe"
+    },
+    {
+        "venue_id": 153272,
+        "venue_name": "Dick & Dixie's"
+    },
+    {
+        "venue_id": 165231,
+        "venue_name": "The Urban Lounge"
+    },
+    {
+        "venue_id": 724745,
+        "venue_name": "The Westerner Dance Hall, Bar & Grill"
+    },
+    {
+        "venue_id": 16033,
+        "venue_name": "The Bayou"
+    },
+    {
+        "venue_id": 107448,
+        "venue_name": "Sawadee"
+    },
+    {
+        "venue_id": 1657496,
+        "venue_name": "Rye Diner & Drinks"
+    },
+    {
+        "venue_id": 123125,
+        "venue_name": "Ichiban Sushi"
+    },
+    {
+        "venue_id": 209572,
+        "venue_name": "The State Room"
+    },
+    {
+        "venue_id": 177764,
+        "venue_name": "Cannella's"
+    },
+    {
+        "venue_id": 186527,
+        "venue_name": "The Leonardo"
+    },
+    {
+        "venue_id": 562714,
+        "venue_name": "The Oasis Cafe"
+    },
+    {
+        "venue_id": 31434,
+        "venue_name": "Stoneground Kitchen"
+    },
+    {
+        "venue_id": 294996,
+        "venue_name": "Library Square"
+    },
+    {
+        "venue_id": 1771183,
+        "venue_name": "Even Stevens Sandwiches"
+    },
+    {
+        "venue_id": 1426291,
+        "venue_name": "Vertical Diner and the Jade Room"
+    },
+    {
+        "venue_id": 4792672,
+        "venue_name": "HSL"
+    },
+    {
+        "venue_id": 59276,
+        "venue_name": "Vinto"
+    },
+    {
+        "venue_id": 223899,
+        "venue_name": "Try-Angles"
+    },
+    {
+        "venue_id": 860876,
+        "venue_name": "Gibson Lounge"
+    },
+    {
+        "venue_id": 1547547,
+        "venue_name": "Washington Square"
+    },
+    {
+        "venue_id": 2682043,
+        "venue_name": "Current Fish & Oyster"
+    },
+    {
+        "venue_id": 3073942,
+        "venue_name": "Under Current"
+    },
+    {
+        "venue_id": 28658,
+        "venue_name": "The Grand America Hotel"
+    },
+    {
+        "venue_id": 247184,
+        "venue_name": "Twilite Lounge"
+    },
+    {
+        "venue_id": 1152269,
+        "venue_name": "Gourmandise - The Bakery"
+    },
+    {
+        "venue_id": 2795158,
+        "venue_name": "Lucky H Bar at Little America"
+    },
+    {
+        "venue_id": 29201,
+        "venue_name": "The Little America Hotel"
+    },
+    {
+        "venue_id": 645096,
+        "venue_name": "The Tavernacle"
+    },
+    {
+        "venue_id": 1365,
+        "venue_name": "Brewvies Cinema Pub"
+    },
+    {
+        "venue_id": 43181,
+        "venue_name": "Legends Sports Pub"
+    },
+    {
+        "venue_id": 57549,
+        "venue_name": "The Jackalope Lounge"
+    },
+    {
+        "venue_id": 126695,
+        "venue_name": "Red Lion Hotel"
+    },
+    {
+        "venue_id": 620194,
+        "venue_name": "Wiseguys Comedy"
+    },
+    {
+        "venue_id": 258383,
+        "venue_name": "Pie Hole"
+    },
+    {
+        "venue_id": 5943685,
+        "venue_name": "Fisher Brewing"
+    },
+    {
+        "venue_id": 82256,
+        "venue_name": "Himalayan Kitchen"
+    },
+    {
+        "venue_id": 1438661,
+        "venue_name": "Copper Common"
+    },
+    {
+        "venue_id": 26635,
+        "venue_name": "The Copper Onion"
+    },
+    {
+        "venue_id": 341613,
+        "venue_name": "Avenues Bistro on Third"
+    },
+    {
+        "venue_id": 58183,
+        "venue_name": "The Green Pig Pub"
+    },
+    {
+        "venue_id": 250447,
+        "venue_name": "DoubleTree Suites by Hilton Hotel Salt Lake City Downtown"
+    },
+    {
+        "venue_id": 516501,
+        "venue_name": "Wasted Space"
+    },
+    {
+        "venue_id": 797714,
+        "venue_name": "Cedars of Lebanon"
+    },
+    {
+        "venue_id": 53812,
+        "venue_name": "Este Pizzeria"
+    },
+    {
+        "venue_id": 746329,
+        "venue_name": "Copper Bowl"
+    },
+    {
+        "venue_id": 1265920,
+        "venue_name": "Alamexo"
+    },
+    {
+        "venue_id": 2691186,
+        "venue_name": "Taqueria 27"
+    },
+    {
+        "venue_id": 117180,
+        "venue_name": "Johnny's On Second"
+    },
+    {
+        "venue_id": 165973,
+        "venue_name": "Bar X"
+    },
+    {
+        "venue_id": 66581,
+        "venue_name": "Maxwell's East Coast Eatery"
+    },
+    {
+        "venue_id": 207064,
+        "venue_name": "Puck Restaurant & Sports Bar"
+    },
+    {
+        "venue_id": 898466,
+        "venue_name": "The Rest"
+    },
+    {
+        "venue_id": 825733,
+        "venue_name": "Bodega"
+    },
+    {
+        "venue_id": 1180130,
+        "venue_name": "Whiskey Street"
+    },
+    {
+        "venue_id": 6357430,
+        "venue_name": "White Horse Spirits & Kitchen"
+    },
+    {
+        "venue_id": 800969,
+        "venue_name": "Granary Row"
+    },
+    {
+        "venue_id": 1139492,
+        "venue_name": "Spitz"
+    },
+    {
+        "venue_id": 4570469,
+        "venue_name": "Good Grammar"
+    },
+    {
+        "venue_id": 405886,
+        "venue_name": "Hilton Garden Inn Salt Lake City Downtown"
+    },
+    {
+        "venue_id": 50398,
+        "venue_name": "Junior's Tavern"
+    },
+    {
+        "venue_id": 323934,
+        "venue_name": "Bout Time Pub & Grub"
+    },
+    {
+        "venue_id": 1304614,
+        "venue_name": "From Scratch"
+    },
+    {
+        "venue_id": 2347,
+        "venue_name": "Cheers to you"
+    },
+    {
+        "venue_id": 35812,
+        "venue_name": "Eva"
+    },
+    {
+        "venue_id": 110748,
+        "venue_name": "Takashi"
+    },
+    {
+        "venue_id": 194833,
+        "venue_name": "Kristauf's Martini Bar"
+    },
+    {
+        "venue_id": 209546,
+        "venue_name": "Salt Lake City Marriott City Center"
+    },
+    {
+        "venue_id": 139680,
+        "venue_name": "Sheraton Salt Lake City Hotel"
+    },
+    {
+        "venue_id": 708832,
+        "venue_name": "R&R BBQ"
+    },
+    {
+        "venue_id": 263927,
+        "venue_name": "EXTRA INNINGS - Sheraton Salt Lake City"
+    },
+    {
+        "venue_id": 190054,
+        "venue_name": "Market Street Oyster Bar"
+    },
+    {
+        "venue_id": 2389884,
+        "venue_name": "Pleiku"
+    },
+    {
+        "venue_id": 268906,
+        "venue_name": "Market Street Grill"
+    },
+    {
+        "venue_id": 366271,
+        "venue_name": "The Gallivan Center"
+    },
+    {
+        "venue_id": 26774,
+        "venue_name": "Keys On Main"
+    },
+    {
+        "venue_id": 362771,
+        "venue_name": "Sicilia Pizza Kitchen"
+    },
+    {
+        "venue_id": 5025312,
+        "venue_name": "Fairfield Inn & Suites by Marriott Salt Lake City Downtown"
+    },
+    {
+        "venue_id": 23134,
+        "venue_name": "Gracie's"
+    },
+    {
+        "venue_id": 143165,
+        "venue_name": "Bourbon House"
+    },
+    {
+        "venue_id": 165923,
+        "venue_name": "Courtyard Salt Lake City Downtown"
+    },
+    {
+        "venue_id": 1096313,
+        "venue_name": "Crystal Inn"
+    },
+    {
+        "venue_id": 46127,
+        "venue_name": "Simply Sushi"
+    },
+    {
+        "venue_id": 27100,
+        "venue_name": "Ruth's Chris Steak House"
+    },
+    {
+        "venue_id": 674087,
+        "venue_name": "Peery Hotel"
+    },
+    {
+        "venue_id": 286979,
+        "venue_name": "Hilton Salt Lake City Center"
+    },
+    {
+        "venue_id": 5323954,
+        "venue_name": "Carnegie's"
+    },
+    {
+        "venue_id": 508320,
+        "venue_name": "Kimpton Hotel Monaco Salt Lake City"
+    },
+    {
+        "venue_id": 5408717,
+        "venue_name": "George S And Dolores Dore Eccles Theatre"
+    },
+    {
+        "venue_id": 141545,
+        "venue_name": "Murphy's Bar & Grill"
+    },
+    {
+        "venue_id": 16340,
+        "venue_name": "Squatters Pub Brewery"
+    },
+    {
+        "venue_id": 460986,
+        "venue_name": "The Red Door"
+    },
+    {
+        "venue_id": 23818,
+        "venue_name": "Bambara Restaurant"
+    },
+    {
+        "venue_id": 187497,
+        "venue_name": "Siegfried's Delicatessen"
+    },
+    {
+        "venue_id": 108254,
+        "venue_name": "Maverik Center"
+    },
+    {
+        "venue_id": 117578,
+        "venue_name": "The Vault"
+    },
+    {
+        "venue_id": 252322,
+        "venue_name": "Hampton Inn Salt Lake City-Downtown"
+    },
+    {
+        "venue_id": 638775,
+        "venue_name": "Michelangelo's on Main"
+    },
+    {
+        "venue_id": 640225,
+        "venue_name": "Spencer's for Steaks & Chops"
+    },
+    {
+        "venue_id": 2054,
+        "venue_name": "O'Shucks Bar & Grill"
+    },
+    {
+        "venue_id": 406074,
+        "venue_name": "Ahh Sushi"
+    },
+    {
+        "venue_id": 16654,
+        "venue_name": "BeerHive Pub & Grill"
+    },
+    {
+        "venue_id": 1102080,
+        "venue_name": "Edinburgh Castle Scottish Imports"
+    },
+    {
+        "venue_id": 1105575,
+        "venue_name": "Brio Tuscano Grille"
+    },
+    {
+        "venue_id": 45183,
+        "venue_name": "Lumpy's Downtown"
+    },
+    {
+        "venue_id": 638889,
+        "venue_name": "Capitol Theatre"
+    },
+    {
+        "venue_id": 212715,
+        "venue_name": "Inferno Cantina"
+    },
+    {
+        "venue_id": 6192628,
+        "venue_name": "Fat Jack's Burger Emporium"
+    },
+    {
+        "venue_id": 2960110,
+        "venue_name": "Holiday Inn Express Downtown SLC"
+    },
+    {
+        "venue_id": 212008,
+        "venue_name": "The Cheesecake Factory"
+    },
+    {
+        "venue_id": 279842,
+        "venue_name": "P.F. Chang's"
+    },
+    {
+        "venue_id": 567907,
+        "venue_name": "Rose Wagner Performing Arts Center"
+    },
+    {
+        "venue_id": 456204,
+        "venue_name": "Zest Kitchen & Bar"
+    },
+    {
+        "venue_id": 208307,
+        "venue_name": "Benihana"
+    },
+    {
+        "venue_id": 197202,
+        "venue_name": "Christopher's Prime Steakhouse & Grill"
+    },
+    {
+        "venue_id": 193407,
+        "venue_name": "Winger's Roadhouse Grill"
+    },
+    {
+        "venue_id": 330455,
+        "venue_name": "Blue Iguana"
+    },
+    {
+        "venue_id": 469017,
+        "venue_name": "Pierpont Place"
+    },
+    {
+        "venue_id": 186090,
+        "venue_name": "Buca di Beppo Italian Restaurant"
+    },
+    {
+        "venue_id": 4491696,
+        "venue_name": "SKY SLC"
+    },
+    {
+        "venue_id": 590272,
+        "venue_name": "Area 51"
+    },
+    {
+        "venue_id": 7082232,
+        "venue_name": "Kiitos Brewing"
+    },
+    {
+        "venue_id": 7089838,
+        "venue_name": "Kiitos Brewing"
+    },
+    {
+        "venue_id": 780276,
+        "venue_name": "TRAX City Center"
+    },
+    {
+        "venue_id": 166245,
+        "venue_name": "Settebello Pizzeria"
+    },
+    {
+        "venue_id": 641231,
+        "venue_name": "Residence Inn Salt Lake City Downtown"
+    },
+    {
+        "venue_id": 2333,
+        "venue_name": "Red Rock Brewing Co."
+    },
+    {
+        "venue_id": 1821441,
+        "venue_name": "Redrock"
+    },
+    {
+        "venue_id": 94949,
+        "venue_name": "Redrock Brewpub & Restaurant"
+    },
+    {
+        "venue_id": 58686,
+        "venue_name": "Devil's Daughter"
+    },
+    {
+        "venue_id": 375669,
+        "venue_name": "Caffe Molise"
+    },
+    {
+        "venue_id": 6017298,
+        "venue_name": "Lake Effect"
+    },
+    {
+        "venue_id": 301508,
+        "venue_name": "J Wong's Asian Bistro"
+    },
+    {
+        "venue_id": 1329415,
+        "venue_name": "BTG Wine Bar"
+    },
+    {
+        "venue_id": 911736,
+        "venue_name": "Texas de Brazil"
+    },
+    {
+        "venue_id": 176725,
+        "venue_name": "Tin Angel Cafe"
+    },
+    {
+        "venue_id": 107068,
+        "venue_name": "Salt Lake Marriott Downtown at City Creek"
+    },
+    {
+        "venue_id": 351228,
+        "venue_name": "Destination Bar"
+    },
+    {
+        "venue_id": 39777,
+        "venue_name": "Poplar Street Pub"
+    },
+    {
+        "venue_id": 27382,
+        "venue_name": "Naked Fish"
+    },
+    {
+        "venue_id": 702701,
+        "venue_name": "Avenues Proper"
+    },
+    {
+        "venue_id": 245054,
+        "venue_name": "TGI Fridays"
+    },
+    {
+        "venue_id": 545569,
+        "venue_name": "Tony Caputo's Market & Deli"
+    },
+    {
+        "venue_id": 386018,
+        "venue_name": "Iggy's Sports Grill"
+    },
+    {
+        "venue_id": 106739,
+        "venue_name": "Salt Palace Convention Center"
+    },
+    {
+        "venue_id": 255917,
+        "venue_name": "Bout Time Pub & Grub"
+    },
+    {
+        "venue_id": 1331014,
+        "venue_name": "Homewood Suites by Hilton Salt Lake City - Downtown"
+    },
+    {
+        "venue_id": 122810,
+        "venue_name": "Iggy's Sports Grill"
+    },
+    {
+        "venue_id": 5488074,
+        "venue_name": "Chile Tepin"
+    },
+    {
+        "venue_id": 687966,
+        "venue_name": "Bombay House"
+    },
+    {
+        "venue_id": 406223,
+        "venue_name": "Pallet"
+    },
+    {
+        "venue_id": 2599254,
+        "venue_name": "Finca"
+    },
+    {
+        "venue_id": 199063,
+        "venue_name": "Salt Lake Plaza Hotel"
+    },
+    {
+        "venue_id": 769096,
+        "venue_name": "Embassy Suites by Hilton Salt Lake West Valley City"
+    },
+    {
+        "venue_id": 732428,
+        "venue_name": "Shula's 347 Grill"
+    },
+    {
+        "venue_id": 2927102,
+        "venue_name": "Hyatt House Salt Lake City/Downtown"
+    },
+    {
+        "venue_id": 132982,
+        "venue_name": "Radisson Hotel Salt Lake City Downtown"
+    },
+    {
+        "venue_id": 3852308,
+        "venue_name": "Wiseguys Comedy"
+    },
+    {
+        "venue_id": 169714,
+        "venue_name": "Copper Canyon Grill House & Tavern"
+    },
+    {
+        "venue_id": 105595,
+        "venue_name": "Bout Time Pub & Grub"
+    },
+    {
+        "venue_id": 1185808,
+        "venue_name": "California Pizza Kitchen"
+    },
+    {
+        "venue_id": 395005,
+        "venue_name": "Tucanos Brazilian Grill"
+    },
+    {
+        "venue_id": 185495,
+        "venue_name": "Wing Nutz"
+    },
+    {
+        "venue_id": 17699,
+        "venue_name": "Happy Sumo"
+    },
+    {
+        "venue_id": 151222,
+        "venue_name": "Vivint Smart Home Arena"
+    },
+    {
+        "venue_id": 61756,
+        "venue_name": "In The Venue"
+    },
+    {
+        "venue_id": 588788,
+        "venue_name": "Fleming's Prime Steakhouse & Wine Bar"
+    },
+    {
+        "venue_id": 114594,
+        "venue_name": "The Depot"
+    },
+    {
+        "venue_id": 1693166,
+        "venue_name": "The Sun Trapp"
+    },
+    {
+        "venue_id": 176318,
+        "venue_name": "The Complex"
+    },
+    {
+        "venue_id": 212098,
+        "venue_name": "Hyatt Place Salt Lake City/Downtown/The Gateway"
+    },
+    {
+        "venue_id": 326456,
+        "venue_name": "Metro Bar"
+    },
+    {
+        "venue_id": 5379629,
+        "venue_name": "Tsunami Restaurant & Sushi Bar"
+    },
+    {
+        "venue_id": 141453,
+        "venue_name": "Wing Nutz"
+    },
+    {
+        "venue_id": 517101,
+        "venue_name": "Buffalo Wild Wings"
+    },
+    {
+        "venue_id": 629598,
+        "venue_name": "LongHorn Steakhouse"
+    },
+    {
+        "venue_id": 44528,
+        "venue_name": "Red Iguana"
+    },
+    {
+        "venue_id": 4225887,
+        "venue_name": "Mountain West Cider"
+    },
+    {
+        "venue_id": 203090,
+        "venue_name": "Red Rocks Brewhaus"
+    },
+    {
+        "venue_id": 139981,
+        "venue_name": "Red Iguana 2"
+    },
+    {
+        "venue_id": 4001212,
+        "venue_name": "Back 40 Ranch House Grill"
+    },
+    {
+        "venue_id": 1029069,
+        "venue_name": "Red Rock Brewery"
+    },
+    {
+        "venue_id": 108641,
+        "venue_name": "The Foundry Grill"
+    },
+    {
+        "venue_id": 14913,
+        "venue_name": "Sundance Resort"
+    },
+    {
+        "venue_id": 11897,
+        "venue_name": "Sundance Owl Bar"
+    },
+    {
+        "venue_id": 1946793,
+        "venue_name": "Courtyard Lehi at Thanksgiving Point"
+    },
+    {
+        "venue_id": 287593,
+        "venue_name": "Utah State Fair Park"
+    },
+    {
+        "venue_id": 200717,
+        "venue_name": "Thanksgiving Point Golf Course"
+    },
+    {
+        "venue_id": 62343,
+        "venue_name": "The Garage"
+    },
+    {
+        "venue_id": 386053,
+        "venue_name": "Salt Lake City KOA"
+    },
+    {
+        "venue_id": 517490,
+        "venue_name": "The Break Sports Bar & Grill"
+    },
+    {
+        "venue_id": 211489,
+        "venue_name": "Buffalo Wild Wings"
+    },
+    {
+        "venue_id": 223855,
+        "venue_name": "The Break"
+    },
+    {
+        "venue_id": 386831,
+        "venue_name": "Home2 Suites by Hilton"
+    },
+    {
+        "venue_id": 303375,
+        "venue_name": "Texas Roadhouse"
+    },
+    {
+        "venue_id": 615712,
+        "venue_name": "Radisson Hotel Salt Lake City Airport"
+    },
+    {
+        "venue_id": 181918,
+        "venue_name": "Lofte's Private Club & Restaurant"
+    },
+    {
+        "venue_id": 822113,
+        "venue_name": "Sundance Bearclaw Restaurant"
+    },
+    {
+        "venue_id": 286701,
+        "venue_name": "USANA Amphitheatre"
+    },
+    {
+        "venue_id": 370099,
+        "venue_name": "Copper Creek Pub & Grub"
+    },
+    {
+        "venue_id": 546709,
+        "venue_name": "Buffalo Wild Wings"
+    },
+    {
+        "venue_id": 589845,
+        "venue_name": "Bout Time Pub & Grub"
+    },
+    {
+        "venue_id": 174401,
+        "venue_name": "Terminal 1"
+    },
+    {
+        "venue_id": 429494,
+        "venue_name": "Gordon Biersch Brewing Company"
+    },
+    {
+        "venue_id": 512084,
+        "venue_name": "Concourse B"
+    },
+    {
+        "venue_id": 402635,
+        "venue_name": "Cat Cora's Kitchen"
+    },
+    {
+        "venue_id": 13455,
+        "venue_name": "Salt Lake City International Airport (SLC)"
+    },
+    {
+        "venue_id": 1368517,
+        "venue_name": "Terminal 2"
+    },
+    {
+        "venue_id": 161185,
+        "venue_name": "Concourse C"
+    },
+    {
+        "venue_id": 460483,
+        "venue_name": "SLC Gate C5"
+    },
+    {
+        "venue_id": 746005,
+        "venue_name": "Market Street Grill"
+    },
+    {
+        "venue_id": 349412,
+        "venue_name": "SLC Gate C3"
+    },
+    {
+        "venue_id": 19791,
+        "venue_name": "Squatters Pub Brewery"
+    },
+    {
+        "venue_id": 1168426,
+        "venue_name": "SLC Gate C4"
+    },
+    {
+        "venue_id": 33726,
+        "venue_name": "Delta Sky Club"
+    },
+    {
+        "venue_id": 1928069,
+        "venue_name": "Sqatters"
+    },
+    {
+        "venue_id": 503262,
+        "venue_name": "High West Saloon"
+    },
+    {
+        "venue_id": 1536400,
+        "venue_name": "Il Viaggio"
+    },
+    {
+        "venue_id": 257580,
+        "venue_name": "Vino Volo Ale House"
+    },
+    {
+        "venue_id": 253412,
+        "venue_name": "Concourse E"
+    },
+    {
+        "venue_id": 348792,
+        "venue_name": "Vinovolo"
+    },
+    {
+        "venue_id": 387458,
+        "venue_name": "Lokals"
+    },
+    {
+        "venue_id": 43103,
+        "venue_name": "Wasatch Brew Pub"
+    },
+    {
+        "venue_id": 272210,
+        "venue_name": "Hyatt Place Salt Lake City Airport"
+    },
+    {
+        "venue_id": 240167,
+        "venue_name": "Concourse D"
+    },
+    {
+        "venue_id": 951153,
+        "venue_name": "Courtyard Salt Lake City Airport"
+    },
+    {
+        "venue_id": 470770,
+        "venue_name": "Robert's Restaurant"
+    },
+    {
+        "venue_id": 791020,
+        "venue_name": "SpringHill Suites Salt Lake City Airport"
+    },
+    {
+        "venue_id": 596195,
+        "venue_name": "Hilton Garden Inn Salt Lake City Airport"
+    },
+    {
+        "venue_id": 238194,
+        "venue_name": "WingTips Bistro & Bar"
+    },
+    {
+        "venue_id": 69565,
+        "venue_name": "Holiday Inn Hotel & Suites Salt Lake City-Airport West"
+    },
+    {
+        "venue_id": 1590358,
+        "venue_name": "DoubleTree by Hilton Hotel Salt Lake City Airport"
+    },
+    {
+        "venue_id": 588231,
+        "venue_name": "Club 114"
+    },
+    {
+        "venue_id": 286881,
+        "venue_name": "DoubleTree by Hilton Hotel Salt Lake City Airport"
+    },
+    {
+        "venue_id": 56630,
+        "venue_name": "Hampton Inn & Suites Salt Lake Airport"
+    },
+    {
+        "venue_id": 1995875,
+        "venue_name": "Amelia's Bar & Grill"
+    },
+    {
+        "venue_id": 376581,
+        "venue_name": "Texas Roadhouse"
+    },
+    {
+        "venue_id": 163120,
+        "venue_name": "Pizzeria Seven Twelve"
+    },
+    {
+        "venue_id": 469810,
+        "venue_name": "Wing Nutz"
+    },
+    {
+        "venue_id": 365736,
+        "venue_name": "Iggy's Sports Grill"
+    },
+    {
+        "venue_id": 19957,
+        "venue_name": "Iggy's Sports Grill"
+    },
+    {
+        "venue_id": 86983,
+        "venue_name": "Bombay House"
+    },
+    {
+        "venue_id": 87230,
+        "venue_name": "Communal"
+    },
+    {
+        "venue_id": 430508,
+        "venue_name": "Provo Marriott Hotel & Conference Center"
+    },
+    {
+        "venue_id": 636866,
+        "venue_name": "Black Sheep Cafe"
+    },
+    {
+        "venue_id": 89593,
+        "venue_name": "ABG's Bar"
+    },
+    {
+        "venue_id": 204633,
+        "venue_name": "The Madison"
+    },
+    {
+        "venue_id": 369579,
+        "venue_name": "Winger's Roadhouse Grill"
+    },
+    {
+        "venue_id": 246375,
+        "venue_name": "Ruby River"
+    },
+    {
+        "venue_id": 367252,
+        "venue_name": "Great Saltair"
+    },
+    {
+        "venue_id": 767580,
+        "venue_name": "Lagoon Amusement Park"
+    },
+    {
+        "venue_id": 560056,
+        "venue_name": "ParkStone Wood Kitchen"
+    },
+    {
+        "venue_id": 1006988,
+        "venue_name": "Settebello Pizzeria"
+    },
+    {
+        "venue_id": 1051957,
+        "venue_name": "Twigs | Bistro And Martini Bar"
+    },
+    {
+        "venue_id": 1504537,
+        "venue_name": "Taggart's Grill"
+    },
+    {
+        "venue_id": 4888334,
+        "venue_name": "Strap Tank Brewery"
+    },
+    {
+        "venue_id": 662372,
+        "venue_name": "Bonneville Brewery"
+    },
+    {
+        "venue_id": 1856259,
+        "venue_name": "Gabor Brothers"
+    },
+    {
+        "venue_id": 4369006,
+        "venue_name": "Bout Time Pub & Grub"
+    },
+    {
+        "venue_id": 635641,
+        "venue_name": "Red Lobster"
+    },
+    {
+        "venue_id": 704520,
+        "venue_name": "Texas Roadhouse"
+    },
+    {
+        "venue_id": 392408,
+        "venue_name": "Buffalo Wild Wings"
+    },
+    {
+        "venue_id": 469981,
+        "venue_name": "Iggy's Sports Grill"
+    },
+    {
+        "venue_id": 18158,
+        "venue_name": "Roosters Brewing Co"
+    },
+    {
+        "venue_id": 233404,
+        "venue_name": "Corbin's Grille"
+    },
+    {
+        "venue_id": 2113775,
+        "venue_name": "Hilton Garden Inn Salt Lake City/Layton"
+    },
+    {
+        "venue_id": 233406,
+        "venue_name": "Fahrenheit Lounge"
+    },
+    {
+        "venue_id": 408263,
+        "venue_name": "Red Robin Gourmet Burgers"
+    },
+    {
+        "venue_id": 175609,
+        "venue_name": "Mac Cool's Public House"
+    },
+    {
+        "venue_id": 608428,
+        "venue_name": "Summit Lounge"
+    },
+    {
+        "venue_id": 579810,
+        "venue_name": "Osaka Sushi Japanese Restaurant"
+    },
+    {
+        "venue_id": 40186,
+        "venue_name": "Outback Steakhouse"
+    },
+    {
+        "venue_id": 394408,
+        "venue_name": "Boston's Restaurant & Sports Bar"
+    },
+    {
+        "venue_id": 578999,
+        "venue_name": "Chili's Grill & Bar"
+    },
+    {
+        "venue_id": 237625,
+        "venue_name": "Famous Dave's"
+    },
+    {
+        "venue_id": 2579389,
+        "venue_name": "Lucky Slice Pizza"
+    },
+    {
+        "venue_id": 551169,
+        "venue_name": "Club Hill"
+    },
+    {
+        "venue_id": 788685,
+        "venue_name": "Hubbard Golf Course"
+    },
+    {
+        "venue_id": 2813248,
+        "venue_name": "Hill AFB Flight Line"
+    },
+    {
+        "venue_id": 1251216,
+        "venue_name": "Needles lodge"
+    },
+    {
+        "venue_id": 236863,
+        "venue_name": "The Pie Pizzeria"
+    },
+    {
+        "venue_id": 1328876,
+        "venue_name": "John Paul Lodge"
+    },
+    {
+        "venue_id": 905588,
+        "venue_name": "Buffalo Wild Wings"
+    },
+    {
+        "venue_id": 593451,
+        "venue_name": "Ruby River Steakhouse"
+    },
+    {
+        "venue_id": 1434320,
+        "venue_name": "Goodwood Barbecue Co."
+    },
+    {
+        "venue_id": 81391,
+        "venue_name": "Snowbasin Resort"
+    },
+    {
+        "venue_id": 177174,
+        "venue_name": "Earl's Lodge"
+    },
+    {
+        "venue_id": 515133,
+        "venue_name": "Cinnabar Lounge"
+    },
+    {
+        "venue_id": 868276,
+        "venue_name": "Texas Roadhouse"
+    },
+    {
+        "venue_id": 660235,
+        "venue_name": "Bout Time Pub & Grub"
+    },
+    {
+        "venue_id": 6508458,
+        "venue_name": "The Angry Goat Pub And Kitchen"
+    },
+    {
+        "venue_id": 2870427,
+        "venue_name": "Funk'n Dive Bar"
+    },
+    {
+        "venue_id": 5898903,
+        "venue_name": "Harp and Hound"
+    },
+    {
+        "venue_id": 769083,
+        "venue_name": "Ben Lomond Suites Historic Hotel"
+    },
+    {
+        "venue_id": 1928079,
+        "venue_name": "Ogden Amphitheater"
+    },
+    {
+        "venue_id": 365215,
+        "venue_name": "MacCool's Public House"
+    },
+    {
+        "venue_id": 205875,
+        "venue_name": "Roosters Brewing Co."
+    },
+    {
+        "venue_id": 2965394,
+        "venue_name": "Pig & A Jelly Jar Ogden"
+    },
+    {
+        "venue_id": 1269536,
+        "venue_name": "CraftBurger"
+    },
+    {
+        "venue_id": 123992,
+        "venue_name": "The City Club"
+    },
+    {
+        "venue_id": 1996038,
+        "venue_name": "La Ferrovia Ristorante"
+    },
+    {
+        "venue_id": 1176067,
+        "venue_name": "Tona"
+    },
+    {
+        "venue_id": 828658,
+        "venue_name": "Alleged"
+    },
+    {
+        "venue_id": 1335097,
+        "venue_name": "Hearth on 25th"
+    },
+    {
+        "venue_id": 3080700,
+        "venue_name": "Smokey's BBQ"
+    },
+    {
+        "venue_id": 49664,
+        "venue_name": "Brewskis"
+    },
+    {
+        "venue_id": 408528,
+        "venue_name": "Lucky Slice Pizza"
+    },
+    {
+        "venue_id": 777494,
+        "venue_name": "Rovali's Ristorante Italiano"
+    },
+    {
+        "venue_id": 1690372,
+        "venue_name": "Lighthouse Sports Bar"
+    },
+    {
+        "venue_id": 179115,
+        "venue_name": "Union Grill"
+    },
+    {
+        "venue_id": 1608576,
+        "venue_name": "The Century Club"
+    },
+    {
+        "venue_id": 2279518,
+        "venue_name": "Barrelhouse Ogden"
+    },
+    {
+        "venue_id": 31915,
+        "venue_name": "Courtyard Ogden"
+    },
+    {
+        "venue_id": 31928,
+        "venue_name": "Iggy's Sports Grill"
+    },
+    {
+        "venue_id": 643234,
+        "venue_name": "The Sonora Grill"
+    },
+    {
+        "venue_id": 82024,
+        "venue_name": "Lindquist Field"
+    },
+    {
+        "venue_id": 468398,
+        "venue_name": "Hilton Garden Inn Ogden"
+    },
+    {
+        "venue_id": 179227,
+        "venue_name": "Fat Cats Ogden"
+    },
+    {
+        "venue_id": 176170,
+        "venue_name": "Shooting Star Saloon"
+    },
+    {
+        "venue_id": 2516494,
+        "venue_name": "Timbermine Steakhouse"
+    },
+    {
+        "venue_id": 1031687,
+        "venue_name": "Timbermine Restraunt"
+    },
+    {
+        "venue_id": 174528,
+        "venue_name": "The Oaks, A Casual Eatery"
+    },
+    {
+        "venue_id": 961622,
+        "venue_name": "Pineview Reservoir"
+    },
+    {
+        "venue_id": 648162,
+        "venue_name": "The Prairie Schooner"
+    },
+    {
+        "venue_id": 381579,
+        "venue_name": "Comfort Suites"
+    },
+    {
+        "venue_id": 1578969,
+        "venue_name": "Cactus Reds Southwest Grill"
+    },
+    {
+        "venue_id": 4470464,
+        "venue_name": "Talisman Brewing Company"
+    },
+    {
+        "venue_id": 78990,
+        "venue_name": "Jeremiah's Restaurant"
+    },
+    {
+        "venue_id": 1230052,
+        "venue_name": "Steiny's Family Sports Grill"
+    },
+    {
+        "venue_id": 406102,
+        "venue_name": "CARLOS AND HARLEYS Fresh Mex Cantina  Grill  Burgers and Sports Bar"
+    },
+    {
+        "venue_id": 1638025,
+        "venue_name": "Weber county fairgrounds"
+    },
+    {
+        "venue_id": 176819,
+        "venue_name": "Moose Hollow Luxury Condominiums Eden (Utah)"
+    }
+]

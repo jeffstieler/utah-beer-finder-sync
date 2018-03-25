@@ -7,6 +7,7 @@ const querystring = require( 'querystring' );
 const PromisePool = require( 'promise-pool-executor' );
 const _ = require( 'lodash' );
 const parseLinkHeader = require( 'parse-link-header' );
+const utahUntappdVenues = require( './utah-untappd-venues.json' );
 
 const WordPress = new WooCommerceAPI( {
     url: config.get( 'woocommerce.url' ),
@@ -27,10 +28,10 @@ const rotateUntappdToken = () => {
     Untappd.setAccessToken( untappdAccessTokens[ nextIdx ] );
 };
 
-const getCheckins = ( args ) => new Promise( ( resolve, reject ) => {
+const getVenueCheckins = ( venueId, args ) => new Promise( ( resolve, reject ) => {
     rotateUntappdToken();
 
-    Untappd.pubFeed(
+    Untappd.venueActivityFeed(
         ( err, response ) => {
             if ( err ) {
                 reject( err );
@@ -44,7 +45,8 @@ const getCheckins = ( args ) => new Promise( ( resolve, reject ) => {
             }
         },
         Object.assign( {}, args, {
-            limit: 25, radius: 25, dist_pref: 'm',
+            VENUE_ID: venueId,
+            limit: 25,
         } )
     );
 } );
@@ -150,46 +152,6 @@ const storeCheckinsAsPosts = ( checkins ) => {
     } );
 };
 
-const backfillCheckins = ( lat, lng, min_id ) => {
-    const processCheckins = ( checkins ) => {
-        return storeCheckinsAsPosts( checkins ).then( () => {
-            if ( 0 === checkins.length ) {
-                return;
-            }
-            const twoYearsInSeconds = 60 * 60 * 24 * 365 * 2;
-            const dateDiff = new Date() - Date.parse( checkins[0].created_at );
-
-            if ( 25 > checkins.length ) {
-                return;
-            }
-
-            if ( min_id ) {
-                return getCheckins( {
-                    lat,
-                    lng,
-                    min_id: checkins[0].checkin_id,
-                } ).then( processCheckins );
-            }
-            
-            if ( dateDiff < twoYearsInSeconds ) {
-                return getCheckins( {
-                    lat,
-                    lng,
-                    max_id: checkins[checkins.length - 1].checkin_id,
-                } ).then( processCheckins );
-            }
-        } );
-    };
-
-    const initialArgs = { lat, lng };
-
-    if ( min_id ) {
-        initialArgs.min_id = min_id;
-    }
-
-    return getCheckins( initialArgs ).then( processCheckins );
-};
-
 const getLastStoredCheckin = () => new Promise( ( resolve, reject ) => {
     WordPress.get(
         'checkins?' + querystring.stringify( {
@@ -216,6 +178,59 @@ const getLastStoredCheckin = () => new Promise( ( resolve, reject ) => {
     );
 } );
 
+const backfillVenueCheckins = ( venueId, min_id ) => {
+    console.log( 'backfilling venue checkins', venueId );
+    const processVenueCheckins = ( checkins ) => {
+        return storeCheckinsAsPosts( checkins ).then( () => {
+            if ( 0 === checkins.length ) {
+                return;
+            }
+
+            const oneYearInSeconds = 60 * 60 * 24 * 365;
+            const dateDiff = new Date() - Date.parse( checkins[0].created_at );
+
+            if ( 25 > checkins.length ) {
+                return;
+            }
+
+            if ( min_id ) {
+                return getVenueCheckins( venueId, {
+                    min_id: checkins[0].checkin_id,
+                } ).then( processVenueCheckins );
+            }
+            
+            if ( dateDiff < oneYearInSeconds ) {
+                return getVenueCheckins( venueId, {
+                    max_id: checkins[checkins.length - 1].checkin_id,
+                } ).then( processVenueCheckins );
+            }
+        } );
+    };
+
+    const initialArgs = {};
+
+    if ( min_id ) {
+        initialArgs.min_id = min_id;
+    }
+
+    return getVenueCheckins( venueId, initialArgs ).then( processVenueCheckins );
+};
+
+const processAllVenues = ( min_checkin_id ) => {
+    console.log( 'processing venues, min id: ', min_checkin_id );
+    const pool = new PromisePool.PromisePoolExecutor( {
+        frequencyLimit: 1,
+        frequencyWindow: 2000,
+    } );
+
+    return pool.addEachTask( {
+        data: utahUntappdVenues,
+        generator: ( venue ) => backfillVenueCheckins( venue.venue_id, min_checkin_id ),
+    } ).promise().then( ( results ) => {
+        console.log( results.length + ' venue checkins processed.' );
+    } );
+};
+
 getAllProductsWithUntappdId().then( ( products ) => {
     products.forEach( ( product ) => {
         const untappdId = _.get( product, 'meta.untappd_id' );
@@ -228,12 +243,5 @@ getAllProductsWithUntappdId().then( ( products ) => {
         }
     } );
 
-    getLastStoredCheckin().then( ( checkin ) => {
-        const lastCheckinId = checkin.checkin_id;
-
-        backfillCheckins( 40.611763, -111.692505, lastCheckinId )                 // SLC, PC
-        .then( () => backfillCheckins( 41.405450, -111.928711, lastCheckinId ) )  // Ogden
-        .then( () => backfillCheckins( 37.326052, -113.532715, lastCheckinId ) )  // St George
-        .then( () => backfillCheckins( 38.824303, -109.632568, lastCheckinId ) ); // Moab
-    } );
+    getLastStoredCheckin().then( ( checkin ) => processAllVenues( checkin.checkin_id ) );
 } );
