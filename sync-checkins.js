@@ -36,8 +36,15 @@ const getVenueCheckins = ( venueId, args ) => new Promise( ( resolve, reject ) =
             if ( err ) {
                 reject( err );
             } else {
-                if ( 'invalid_limit' == _.get( response, 'meta.error_type' ) ) {
+                const errorType = _.get( response, 'meta.error_type' );
+
+                if ( 'invalid_limit' == errorType ) {
                     console.error( '***** Hit Untappd Rate Limit *****' );
+                    process.exit( 0 );
+                }
+
+                if ( 'invalid_param' == errorType ) {
+                    console.error( _.get( response, 'meta.error_detail' ) );
                     process.exit( 0 );
                 }
 
