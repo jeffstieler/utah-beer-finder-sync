@@ -109,6 +109,10 @@ const storeCheckinAsPost = ( checkin ) => new Promise( ( resolve, reject ) => {
                 key: 'untappd_id',
                 value: checkin.beer.bid,
             },
+            {
+                key: 'untappd_checkin_id',
+                value: checkin.checkin_id,
+            },
         ],
         parent: productUntappdIdMap[ checkin.beer.bid ].id,
         status: 'publish',
