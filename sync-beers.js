@@ -210,12 +210,16 @@ const mapUntappdBeerToProduct = ( beerProduct, untappdBeer ) => {
         }
     );
 
-    beerProduct.images = [
-        {
-            src: _.get( untappdBeer, 'beer.beer_label', _.get( untappdBeer, 'beer_label' ) ),
-            position: 0,
-        },
-    ];
+    const beerImage = _.get( untappdBeer, 'beer.beer_label', _.get( untappdBeer, 'beer_label' ) );
+
+    if ( 'https://untappd.akamaized.net//site/assets/images/temp/badge-beer-default.png' !== beerImage ) {
+        beerProduct.images = [
+            {
+                src: beerImage,
+                position: 0,
+            },
+        ];
+    }
 
     // Add untapped ID as meta
     beerProduct.meta_data = [
