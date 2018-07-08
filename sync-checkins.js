@@ -7,6 +7,7 @@ const querystring = require( 'querystring' );
 const PromisePool = require( 'promise-pool-executor' );
 const _ = require( 'lodash' );
 const parseLinkHeader = require( 'parse-link-header' );
+const moment = require( 'moment' );
 const utahUntappdVenues = require( './utah-untappd-venues.json' );
 
 const WordPress = new WooCommerceAPI( {
@@ -123,6 +124,7 @@ const storeCheckinAsPost = ( checkin ) => new Promise( ( resolve, reject ) => {
         ],
         parent: productUntappdIdMap[ checkin.beer.bid ].id,
         status: 'publish',
+        date_gmt: moment( checkin.created_at ).toDate(),
     };
 
     console.log( `Storing checkin ${checkin.checkin_id} as post.` );
