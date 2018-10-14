@@ -43,7 +43,7 @@ const getProducts = ( page = 1 ) => new Promise( ( resolve, reject ) => {
                     const json = JSON.parse( body );
                     const links = parseLinkHeader( _.get( res, 'headers.link', '' ) );
                     const response = {
-                        products: _.filter( json, 'stores.length' ),
+                        products: json,
                     };
 
                     if ( links.next ) {
